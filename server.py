@@ -18,7 +18,7 @@ class IndexHandle(tornado.web.RequestHandler):
     def get(self, *args, **kwargs):
         # 对应http请求的方法
         # 给浏览器响应信息
-        self.write('Hello tornado')
+        self.write('Hello tornado11')
 
 
 if __name__ == '__main__':
